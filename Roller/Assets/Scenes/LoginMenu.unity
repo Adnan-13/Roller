@@ -3435,7 +3435,6 @@ MonoBehaviour:
   register_username: {fileID: 781116135}
   register_email: {fileID: 1018133692}
   register_password: {fileID: 1179569416}
-  idToken: 
   userName: {fileID: 781116135}
   score_text: {fileID: 0}
   score: {fileID: 0}

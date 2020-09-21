@@ -68,11 +68,15 @@ public class DatabaseConnect : MonoBehaviour
                 
                 Debug.Log("Signed up: localId: " + response.localId + "\nidToken: " + response.idToken);
 
+                SceneManager.LoadScene("LoginMenu");
+
             }).Catch(error =>
             {
                 Debug.Log(error);
 
-                EditorUtility.DisplayDialog("Registration Failed", "Email already exists or Invalid email and/password", "OK");
+                
+
+               // EditorUtility.DisplayDialog("Registration Failed", "Email already exists or Invalid email and/password", "OK");
             });
     }
 
@@ -110,7 +114,7 @@ public class DatabaseConnect : MonoBehaviour
             }).Catch(error =>
             {
                 Debug.Log(error);
-                EditorUtility.DisplayDialog("Login Failed", "Please check your Email and Password", "OK");
+                //EditorUtility.DisplayDialog("Login Failed", "Please check your Email and Password", "OK");
             });
     }
 
