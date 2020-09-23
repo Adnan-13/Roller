@@ -1,0 +1,9 @@
+1. Upload the heighest score of the player after the player stops playing
+2. remove post to database button
+3. Keep the logged in player stored inside the coputer (No need to login again and again)
+4. Show the player'ss position among all players. Ex. (7/15)
+5. add a finish line
+6. show new highest score 
+7. add the glass breaking bonus
+8. add some better materials
+9. rearrange the codes
